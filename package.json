@@ -2,7 +2,7 @@
   "name": "mystoreapp",
   "license": "0BSD",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app/_layout.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "expo": "~52.0.18",
+    "expo-router": "^4.0.11",
+    "expo-sqlite": "^15.0.3",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
     "react-native": "0.76.5"
